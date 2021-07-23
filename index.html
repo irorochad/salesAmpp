@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    
+
+    <!-- <link href="main.css" rel="stylesheet"> -->
+    <style>
+      
+      .banner {
+        position: relative;
+        width: 100%;
+        background-image: linear-gradient(rgba(9, 132, 212, 0.938), 
+        hsla(0, 0%, 4%, 0.377)), url(images/background-home1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .main-content{
+        padding: 80px 0 200px;
+      }
+     .mainheader {
+       margin: auto;
+       width: 80%;
+     }
+    .iframe-container{
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%; 
+      height: 0;
+      /* margin-top: 50px; */
+    }
+    .iframe-container iframe{
+      position: absolute;
+      top:0;
+      left: 0;
+      width: 100%;
+      height:100%;
+    }
+    .banner1-info{
+      margin: 0 auto;
+      width: 80%;
+      color: white;
+    }
+    .banner1-info p{
+      width: 14rem;
+      font-size: 23px;
+      font-weight: 700;
+    }
+    /* First shaple divider for main-background-img */
+.custom-shape-divider-bottom-1627074611 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1627074611 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 73px;
+}
+
+.custom-shape-divider-bottom-1627074611 .shape-fill {
+    fill: #FFFFFF;
+}
+/* End of first shape divider*/
+   
+.custom-shape-divider-top-1626984510 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+.custom-shape-divider-top-1626984510 svg {
+    position: relative;
+    display: block;
+    width: calc(188% + 1.3px);
+    height: 102px;
+}
+
+.custom-shape-divider-top-1626984510 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-top-1626984510 svg {
+        width: calc(300% + 1.3px);
+        height: 45px;
+    }
+}
+
+</style>
+    <title>My Website</title>
+  </head>
+  <body>
+    
+    <section class="text-white banner">
+      <div class="navarLogo text-center  pt-5 fw-bold">
+        <div class="main-logo">
+              SalesAmp Logo!
+            </div>
+      </div>
+    <div class="main-content">
+     <div class="mainheader">
+        <div class="row">
+          <div class="col-sm-4 col-lg-6">
+            <h1 class="fw-bold">Take Marketing to next level.</h1>
+            <p class="fw-bold">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, vitae. Inventore ullam cum iste modi officiis nesciunt nihil, quidem, ipsam quisquam sed sapiente? Officiis sed quisquam tempora, id quos delectus.</p>
+            <a href="#aboutCourse">
+              <button type="button" class="btn btn-primary ms-3 mb-5 p-3 rounded-pill fw-bold" style="width: 200px;">Learn More</button> 
+            </a>
+          
+          </div>
+          <div class="col-sm-4 col-lg-6">
+            <div class="iframe-container">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/9YffrCViTVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="custom-shape-divider-bottom-1627074611">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+        </svg>
+    </div>
+    </div>
+  </section>
+    <section>
+      <div class="p-3 mb-2  text-white" style="  position: relative;" id="aboutCourse">
+        <div class="banner1-info " style="color: black;">
+          <h1 style="text-align: center; ">Why take This Course?</h1>
+          <div class="row justify-content-center">
+            <div class="col-sm-4 col-lg-4">
+              <div class="imgContainer" style="margin-top: 70px;">
+                <img src="images/take-course.png" alt="You Need to take this Course" style="width: 90%; height: 90%;  margin-top: 20px;">
+              </div>
+            </div>
+            <div class="col-sm-4 col-lg-4 mt-5">
+              <i class="bi bi-check2-circle" style="font-size: 2.5rem;"> </i> 
+                <p class="fs-5">Discover how to claim and verify a Google My Business listing</p>
+                <i class="bi bi-check2-circle" style="font-size: 2.5rem;"> </i> 
+                <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-sm-4 col-lg-4 mb-5 mt-5" ">
+              <i class="bi bi-check2-circle" style="font-size: 2.5rem;"> </i> 
+                <p class="fs-5">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                <i class="bi bi-check2-circle" style="font-size: 2.5rem;"> </i> 
+                <p class="fs-5">Discover how to claim and verify a Google My Business listing</p>
+            </div>
+            <button type="button" class="btn btn-warning p-3 rounded-pill float-md-end mb-4 fw-bold" style="background-color: #0D6CF8; color: white; width: 200px;">Enroll Now</button>
+          </div>
+          
+        </div>
+        <div class="row justify-content-center" style="color: black;">
+          <div class="col-sm-2 col-md-4 col-lg-2 text-center">
+            <i class="bi bi-book-fill" style="font-size: 2.5rem;  color: cornflowerblue;"></i><h4>3 Module</h4>
+          </div>
+          <div class="col-sm-2 col-md-4 col-lg-2 text-center">
+            <i class="bi bi-play-circle-fill" style="font-size: 2.5rem;  color: cornflowerblue;" ></i><h4>7 Videos</h4>
+          </div>
+          <div class="col-sm-2 col-md-4 col-lg-2 text-center">
+            <i class="bi bi-alarm-fill" style="font-size: 2.5rem;  color: cornflowerblue;"></i><h4>1.3 Hours</h4>
+          </div>
+          <div class="col-sm-2 col-md-4 col-lg-2 text-center">
+            <i class="bi-star-fill" style="font-size: 2.5rem;  color: cornflowerblue;"></i><h4>5 start Rating</h4>
+          </div>
+        </div>
+        
+      
+      </div>
+    
+    </section>
+    <section style="background-color: #F4F4F4;" class="p-4">
+      <div class="space-between " style="margin-top: 150px;"></div>
+      <div class="mainheader" >
+        <div class="row">
+          <div class="col-sm-6 col-lg-6 mt-5">
+            <h1 class="fw-bold">Who is this Course For?</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, dolorem! Inventore reiciendis amet ab sed odio saepe corrupti optio vero minima! Ab mollitia, sequi necessitatibus dolor doloribus quae quam eius.</p>
+            <button type="button" class="btn btn-primary ms-3 mb-5 p-3 rounded-pill fw-bold" style="width: 200px;">Enroll Now</button>   
+          </div>
+          <div class="col-sm-4 col-lg-6">
+              <img src="images/p-4.jpg" class="shadow-lg p-3 mb-5 bg-body rounded" alt="An Image Showing who this course is for" style="width: 90%;">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section style="margin-top: 50px; margin-bottom: 150px; position: relative;" >
+      <div class="courseInfo " style="width: 50%; margin:auto;">
+        <h1 class="text-center fw-bold mb-5">What's in the Box?</h1>
+      <p class="text-center " style="margin-bottom: 100px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, quisquam repellendus. Suscipit labore eaque quibusdam ex harum maiores ullam ipsa deleniti ab dolore! Vitae, et dolorum? Aliquam quos eum excepturi..</p>
+
+    </div>
+    <section style="width: 80%; margin: auto;">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              <div class=" rounded-pill p-4 fw-bold" style="background-color: #A5C559; color: white; width: 70px;">01</div> <h5 class="fw-bold ms-5" >I'm a course Title. Tap me to open</h5>
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body" style="margin-left: 140px;">
+              <p>I'm the description of the course and I'm here too</p>
+              <i class="bi bi-play-circle me-2" style="font-size: 1.5rem;" ></i><a href="#" class="text-decoration-none fw-bold" style="color: #151515 !important;">This is a Sample Course Title</a>
+            <hr>
+            <i class="bi bi-link me-2" style="font-size: 1.5rem;" ></i><a href="#" class="text-decoration-none fw-light" style="color: #151515 !important;">Additional Resource - Maybe a Quiz/a>
+            <hr>
+            <i class="bi bi-link me-2" style="font-size: 1.5rem;"></i><a href="#" class="text-decoration-none fw-light" style="color: #151515 !important;">Anything Else can be here</a>
+            <hr>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              <div class=" rounded-pill p-4 fw-bold" style="background-color: #A5C559; color: white; width: 70px;">02</div> <h5 class="fw-bold ms-5" >I'm a course Title. Tap me to open</h5>
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body" style="margin-left: 140px;">
+              <p>I'm the description of the course and I'm here too</p>
+              <i class="bi bi-play-circle me-2" style="font-size: 1.5rem;" ></i><a href="#" class="text-decoration-none fw-bold" style="color: #151515 !important;">This is a Sample Course Title</a>
+            <hr>
+              <i class="bi bi-link me-2" style="font-size: 1.5rem;" ></i><a href="#" class="text-decoration-none fw-light" style="color: #151515 !important;">Additional Resource - Maybe a Quiz/a>
+              <hr>
+              <i class="bi bi-link me-2" style="font-size: 1.5rem;"></i><a href="#" class="text-decoration-none fw-light" style="color: #151515 !important;">Anything Else can be here</a>
+              <hr>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              <div class=" rounded-pill p-4 fw-bold" style="background-color: #A5C559; color: white; width: 70px;">03</div> <h5 class="fw-bold ms-5">Learn Facebook ads for free.</h5>
+            </button>
+          </h2>
+          <hr>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body" style="margin-left: 140px;">
+              <p>I'm the description of the course and I'm here too</p>
+              <i class="bi bi-play-circle me-2" style="font-size: 1.5rem;" ></i><a href="#" class="text-decoration-none fw-bold" style="color: #151515 !important;">This is a Sample Course Title</a>
+            <hr>
+              <i class="bi bi-link me-2" style="font-size: 1.5rem;" ></i><a href="#" class="text-decoration-none fw-light" style="color: #151515 !important;">Additional Resource - Maybe a Quiz/a>
+              <hr>
+              <i class="bi bi-link me-2" style="font-size: 1.5rem;"></i><a href="#" class="text-decoration-none fw-light" style="color: #151515 !important;">Anything Else can be here</a>
+              <hr>
+            </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+              <div class=" rounded-pill p-4 fw-bold" style="background-color: #A5C559; color: white; width: 70px;">04</div> <h5 class="fw-bold ms-5">Learn Facebook ads for free.</h5>
+            </button>
+          </h2>
+          <hr>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body" style="margin-left: 140px;">
+              <p>I'm the description of the course and I'm here too</p>
+              <i class="bi bi-play-circle me-2" style="font-size: 1.5rem;" ></i><a href="#" class="text-decoration-none fw-bold" style="color: #151515 !important;">This is a Sample Course Title</a>
+            <hr>
+              <i class="bi bi-link me-2" style="font-size: 1.5rem;" ></i><a href="#" class="text-decoration-none fw-light" style="color: #151515 !important;">Additional Resource - Maybe a Quiz/a>
+              <hr>
+              <i class="bi bi-link me-2" style="font-size: 1.5rem;"></i><a href="#" class="text-decoration-none fw-light" style="color: #151515 !important;">Anything Else can be here</a>
+              <hr>
+            </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+              <div class=" rounded-pill p-4 fw-bold" style="background-color: #A5C559; color: white; width: 70px;">05</div> <h5 class="fw-bold ms-5">Learn Facebook ads for free.</h5>
+            </button>
+          </h2>
+          <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body" style="margin-left: 140px;">
+              <p>I'm the description of the course and I'm here too</p>
+              <i class="bi bi-play-circle me-2" style="font-size: 1.5rem;" ></i><a href="#" class="text-decoration-none fw-bold" style="color: #151515 !important;">This is a Sample Course Title</a>
+            <hr>
+              <i class="bi bi-link me-2" style="font-size: 1.5rem;" ></i><a href="#" class="text-decoration-none fw-light" style="color: #151515 !important;">Additional Resource - Maybe a Quiz/a>
+              <hr>
+              <i class="bi bi-link me-2" style="font-size: 1.5rem;"></i><a href="#" class="text-decoration-none fw-light" style="color: #151515 !important;">Anything Else can be here</a>
+              <hr>
+            </div>
+        </div>
+      </div>
+      <div class="actB mt-4 text-center">
+        <button type="button" class="btn btn-primary ms-3 mb-5 p-3 rounded-pill fw-bold" style="width: 200px;">Enroll Now</button>  
+      </div>  
+    </section>
+
+    <section>
+      <div class="p-3   text-white mt-5 pb-5" style="background-color: #545BD2; position: relative;">
+        <div class="custom-shape-divider-top-1626984510">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+          </svg>
+       </div>
+        <div class="banner1-info mt-5">
+          <h1 style="text-align: center; color: white; padding-top: 50px;" class="fw-bold">Testimonials</h1>
+        </div>
+        <div class="testiomonial mt-5 " style=" width: 90%; margin: auto;">
+          <div class="row justify-content-center" >
+            <div class="col-md-5 text-center border mb-4 me-2">
+              <i class="bi bi-chat-left-quote" style="font-size: 2.5rem"; ></i>
+              <p class="fst-italic">I'm also a customer with a lenthier reviews Lorem ipsum dolor sit amet consectetur.</p>
+              <h5 class="float-end">Iroro Chadere</h5>
+            </div>
+            <div class="col-md-5 text-center border mb-4">
+              <i class="bi bi-chat-left-quote" style="font-size: 2.5rem"; ></i>
+                <p class="fst-italic">I'm also a customer with a lenthier reviews Lorem ipsum dolor sit amet consectetur.</p>
+                <h5 class="float-end">Emmy</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="mainheader p-5 mt-5">
+        <div class="row">
+          <div class="col-sm-6 col-lg-5">
+            <h1 class="fw-bold mt-3">Meet your Instructor</h1>
+            <img src="Images/instructor.jpg" class="rounded-circle" style="width: 60%" alt="Your Instructor Image">
+          </div>
+          <div class="col-sm-4 col-lg-7 mt-5">
+              <h4 class="fw-bold">Emmanuel Ohworeko</h4>
+              <p>Hi there, I'm your Instructor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id suscipit hic similique eum quaerat officiis, mollitia nostrum quod expedita dolorum ad animi nemo veritatis consequatur libero. Asperiores deleniti quisquam veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam consequuntur, quae delectus magnam sint fugiat. Facilis id, soluta accusantium neque ipsam perferendis earum, consequatur molestias saepe aliquam dolorem repellat atque?</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="coypright text-center font-monospace">
+      <div class="p-3 bg-dark text-white">
+        <p>Copyright &copy; 2021 - All right Reserved. Product of <a href="#" class="text-decoration-none text-reset">SalesAmp</a></p>
+      </div>
+    </div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
